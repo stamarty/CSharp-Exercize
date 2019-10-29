@@ -33,7 +33,7 @@ namespace C_Sharp_Exercize
         }
 
         
-        //
+        //adds value to the ascii character to go from upper to lowercase. 
         public string ToLowerCaseSB(string str)
         {
             StringBuilder stringBuilder = new StringBuilder();
