@@ -31,5 +31,26 @@ namespace C_Sharp_Exercize
             Console.WriteLine("your lowered string is: " + loweredString);
             return loweredString;
         }
+
+        
+        //
+        public string ToLowerCaseSB(string str)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int i = 0; i < str.Length; i++)
+			{
+                if (str[i] > 65 && str[i] <= 90)
+                {
+                    stringBuilder.Append((char)((int) str[i] + 32));
+                }
+
+                else
+                {
+                    stringBuilder.Append(str[i]);
+                }
+            }
+            
+            return stringBuilder.ToString();
+        }
     }
 }

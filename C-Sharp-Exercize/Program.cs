@@ -11,11 +11,11 @@ namespace C_Sharp_Exercize
         static void Main(string[] args)
         {
             lc_ToLowerCase loweredString = new lc_ToLowerCase();
-            loweredString.ToLowerCase("HERE IS A STRING IN UPPER CASE !");
+            loweredString.ToLowerCaseSB("HERE IS A STRING IN UPPER CASE !");
             //test data from leetcode
-            loweredString.ToLowerCase("Hello");
-            loweredString.ToLowerCase("here");
-            loweredString.ToLowerCase("LOVELY");
+            Console.WriteLine(loweredString.ToLowerCaseSB("Hello"));
+            Console.WriteLine(loweredString.ToLowerCaseSB("here"));
+            Console.WriteLine(loweredString.ToLowerCaseSB("LOVELY"));
         }
     }
 }
