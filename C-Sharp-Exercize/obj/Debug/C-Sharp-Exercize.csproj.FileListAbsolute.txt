@@ -1,0 +1,6 @@
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe.config
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.pdb
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csprojAssemblyReference.cache
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.exe
+C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.pdb
