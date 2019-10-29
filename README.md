@@ -1,5 +1,8 @@
 # CSharp-Exercize
 
-C# Practice from Cracking the Coding Interview or LeetCode.
+C# Practice from Cracking the Coding Interview or LeetCode. Maybe from some other randome locations too.
 
-More details to follow.
+-----------
+
+- **cci_ReverseString** - reverses a string entered as a parameter. There are two method signatures in the class, one returns the string reversed, the other writes the string reversed to console.
+

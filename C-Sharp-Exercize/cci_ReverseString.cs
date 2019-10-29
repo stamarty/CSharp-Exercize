@@ -8,6 +8,7 @@ namespace C_Sharp_Exercize
 {
     class cci_ReverseString
     {
+        //reverses string entered as parameter and prints to console. 
         public void PrintReverseString(string str)
         {
             char[] arr = str.ToCharArray();
@@ -22,6 +23,7 @@ namespace C_Sharp_Exercize
             Console.WriteLine(reversedString);
         }
 
+        //returns the string entered as a parameter reversed. 
         public string ReverseString(string str)
         {
             char[] arr = str.ToCharArray();

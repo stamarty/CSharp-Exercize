@@ -4,3 +4,9 @@ C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\
 C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csprojAssemblyReference.cache
 C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.exe
 C:\Users\steve\source\repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.pdb
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe.config
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.pdb
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csprojAssemblyReference.cache
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.exe
+E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.pdb
