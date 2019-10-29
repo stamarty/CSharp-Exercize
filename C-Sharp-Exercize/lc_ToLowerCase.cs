@@ -24,15 +24,19 @@ namespace C_Sharp_Exercize
     
     class lc_ToLowerCase
     {
+        //fields
+
         //properties
 
         //methods
 
-        //public string ToLowerCase (string str)
-        //{
-            
-        //}
-       
+        public string ToLowerCase(string str)
+        {
+            string loweredString = str.ToLower();
+            Console.WriteLine("your lowered string is: " + loweredString);
+            return loweredString;
+        }
+
         //constructors
     }
 }

@@ -10,10 +10,12 @@ namespace C_Sharp_Exercize
     {
         static void Main(string[] args)
         {
-            cci_ReverseString words = new cci_ReverseString();
-            words.ReverseString("Steven Martinez is my son!");
-            words.PrintReverseString("This string will be written to the console");
-            words.PrintReverseString("Cierra Michelle is my daughter....but not my favorite one.");
+            lc_ToLowerCase loweredString = new lc_ToLowerCase();
+            loweredString.ToLowerCase("HERE IS A STRING IN UPPER CASE !");
+            //test data from leetcode
+            loweredString.ToLowerCase("Hello");
+            loweredString.ToLowerCase("here");
+            loweredString.ToLowerCase("LOVELY");
         }
     }
 }
