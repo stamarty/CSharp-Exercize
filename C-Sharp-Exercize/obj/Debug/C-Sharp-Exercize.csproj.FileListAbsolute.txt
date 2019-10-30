@@ -10,3 +10,10 @@ E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exerci
 E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csprojAssemblyReference.cache
 E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.exe
 E:\Program Files\Repos\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.pdb
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe.config
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.exe
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\bin\Debug\C-Sharp-Exercize.pdb
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csprojAssemblyReference.cache
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.csproj.CoreCompileInputs.cache
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.exe
+C:\Users\Steven.Martinez\Source\Repos\stamarty\CSharp-Exercize\C-Sharp-Exercize\obj\Debug\C-Sharp-Exercize.pdb

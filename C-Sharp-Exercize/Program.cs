@@ -10,7 +10,10 @@ namespace C_Sharp_Exercize
     {
         static void Main(string[] args)
         {
-           
+            allDigits ad = new allDigits();
+
+            Console.WriteLine(ad.AllDigits("ad22222222"));
+
         }
     }
 }
