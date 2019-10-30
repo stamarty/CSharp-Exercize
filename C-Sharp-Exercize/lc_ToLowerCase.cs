@@ -39,7 +39,7 @@ namespace C_Sharp_Exercize
             StringBuilder stringBuilder = new StringBuilder();
             for (int i = 0; i < str.Length; i++)
 			{
-                if (str[i] > 65 && str[i] <= 90)
+                if (str[i] > 64 && str[i] <= 90)
                 {
                     stringBuilder.Append((char)((int) str[i] + 32));
                 }
