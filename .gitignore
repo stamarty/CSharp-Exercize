@@ -353,3 +353,10 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+.vs/C-Sharp-Exercize/v16/.suo
+.vs/C-Sharp-Exercize/v16/.suo
+*.ide
+.vs/C-Sharp-Exercize/v16/.suo
+*.sqlite
+*.json
+.vs/CSharp-Exercize/v16/.suo
