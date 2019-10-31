@@ -10,9 +10,9 @@ namespace C_Sharp_Exercize
     {
         static void Main(string[] args)
         {
-        
-         
+            lc_DefangIP defang = new lc_DefangIP();
 
+            Console.WriteLine(defang.DefangIPaddr("1.1.1.1"));
         }
     }
 }
