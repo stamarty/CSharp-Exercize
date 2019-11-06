@@ -13,6 +13,10 @@ namespace C_Sharp_Exercize
             lc_DefangIP defang = new lc_DefangIP();
 
             Console.WriteLine(defang.DefangIPaddr("1.1.1.1"));
+
+            AllDigits test = new AllDigits();
+
+            Console.WriteLine(test.allDigits("some letters")); 
         }
     }
 }

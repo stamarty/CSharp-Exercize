@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Exercize
 {
-    class allDigits
+    class AllDigits
     {
         // checks a string to see if the value of the string is all digits. Returns false if there is a letter in there.
-        public bool AllDigits(string s)
+        public bool allDigits(string s)
         {
             try
             {
