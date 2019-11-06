@@ -10,13 +10,13 @@ namespace C_Sharp_Exercize
     {
         static void Main(string[] args)
         {
-            lc_DefangIP defang = new lc_DefangIP();
 
-            Console.WriteLine(defang.DefangIPaddr("1.1.1.1"));
 
-            AllDigits test = new AllDigits();
+            string J = "aA";
+            string S = "aaAAbbbBBb";
 
-            Console.WriteLine(test.allDigits("some letters")); 
+            lc_JewelsAndStones jewels = new lc_JewelsAndStones();
+            Console.WriteLine(jewels.NumJewelsInStones(J, S));
         }
     }
 }
