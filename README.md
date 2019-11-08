@@ -14,6 +14,7 @@ C# Practice from Cracking the Coding Interview or LeetCode. Maybe from some othe
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
 
+- **Module6Files** - Various methods to manipulate files using **C#**. 
 
 -----------
 
