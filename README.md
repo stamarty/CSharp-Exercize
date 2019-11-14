@@ -2,7 +2,7 @@
 
 C# Practice from Cracking the Coding Interview or LeetCode. Maybe from some other random locations too.
 
-Each of classes are named after the program they contain. Uncomment between the multi-line comment annotations /* */. That should run your program with the samples built in.  Do not forget to recomment them or you'll start breaking the rest of the programs.
+Each of classes are named after the program they contain. Select all code in the namespace and uncomment once. That should run your program with the samples built in.  Do not forget to recomment them or you'll start breaking the rest of the programs.
 
 -----------
 
