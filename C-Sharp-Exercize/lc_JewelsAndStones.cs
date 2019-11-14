@@ -34,10 +34,13 @@ namespace C_Sharp_Exercize
             int counter = 0;
             char[] jewels = J.ToCharArray();
 
+            // iterate through the array
             for (int i = 0; i < S.Length; i++)
             {
+                // check to see if the jewell array contains a letter from the array J
                 if (jewels.Contains(S[i]))
                 {
+                    // if the index in S contains a letter from Jewells iterate
                     counter++;
                 }
             }

@@ -6,25 +6,33 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Exercize
 {
-    /*  Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        lc_ToLowerCase test = new lc_ToLowerCase();
 
-        Example 1:
+    //        Console.WriteLine(test.ToLowerCaseSB("Hello"));
+    //        // below should return same string
+    //        Console.WriteLine(test.ToLowerCaseSB("here"));
+    //        Console.WriteLine(test.ToLowerCaseSB("LOVELY"));
 
-        Input: "Hello"
-        Output: "hello"
-        Example 2:
+    //    }
+    //}
 
-        Input: "here"
-        Output: "here"
-        Example 3:
-
-        Input: "LOVELY"
-        Output: "lovely"
-    */
-    
     class lc_ToLowerCase
     {
-        //uses the built in method "ToLower". Probably need to figure out how to do it without that. 
+        // Student: Steven Martinez
+        //
+        // Genesis: This problem is in Leetcode.com
+        //
+        // Summary: Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+        //
+      
+
+
+        // This method uses the built in method "ToLower". Probably need to figure out how to do it without that.
+        // I'm going to leave this here for education's sake. The above samples use the second method in this class
         public string ToLowerCase(string str)
         {
             string loweredString = str.ToLower();
@@ -33,14 +41,18 @@ namespace C_Sharp_Exercize
         }
 
         
-        //adds value to the ascii character to go from upper to lowercase. 
+        // This method takes the ascii value of the character, checks if it is in range
+        // between 65 and 90. If so the letter is capital and the method will add 32 to the 
+        // ascii character to go from upper to lowercase. 
         public string ToLowerCaseSB(string str)
         {
             StringBuilder stringBuilder = new StringBuilder();
             for (int i = 0; i < str.Length; i++)
 			{
+                // is the character capital?
                 if (str[i] > 64 && str[i] <= 90)
                 {
+                    // add 32 to make it lowercase
                     stringBuilder.Append((char)((int) str[i] + 32));
                 }
 
@@ -53,4 +65,9 @@ namespace C_Sharp_Exercize
             return stringBuilder.ToString();
         }
     }
+
+    // Output: 
+    // hello
+    // here
+    // lovely
 }
