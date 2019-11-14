@@ -1,0 +1,10 @@
+
+The ADO.NET Entity Framework enables you to develop applications that target a conceptual model instead of the normalized database structure in the storage layer.
+Microsoft, 20483B Programming in Visual C#, ch. 9, p. 265.
+
+...ADO.NET is a technology offering standardized approach to accessing relational databases (like Microsoft SQL Server and MySQL).
+Nakov, Fundamentals of Computer Programming with CSharp, p. 83.
+
+When you use the Entity Data Model Wizard to create a model, it automatically generates classes that expose the entities in the model to your application code. These classes contain properties that provide access to the properties in the entities.
+Microsoft, 20483B Programming in Visual C#, ch. 9, p. 1646.
+

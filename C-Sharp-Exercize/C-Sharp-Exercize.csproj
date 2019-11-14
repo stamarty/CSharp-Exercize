@@ -60,6 +60,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Media\csc440_cp04_steven_martinez.txt.txt" />
     <Content Include="Media\InterviewQuestions.txt" />
     <Content Include="Media\SecondFile.txt" />
   </ItemGroup>
