@@ -7,6 +7,20 @@ using System.IO;
 
 namespace C_Sharp_Exercize
 {
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        lc_ToLowerCase test = new lc_ToLowerCase();
+
+    //        Console.WriteLine(test.ToLowerCaseSB("Hello"));
+    //        // below should return same string
+    //        Console.WriteLine(test.ToLowerCaseSB("here"));
+    //        Console.WriteLine(test.ToLowerCaseSB("LOVELY"));
+
+    //    }
+    //}
+
     class Module6Files
     {
         // source: sample date taken from module 6 of 20483B

@@ -50,6 +50,7 @@
     <Compile Include="cci_ReverseString.cs" />
     <Compile Include="lc_DefangIP.cs" />
     <Compile Include="lc_JewelsAndStones.cs" />
+    <Compile Include="Module7Database.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="lc_ToLowerCase.cs" />
