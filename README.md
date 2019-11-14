@@ -2,6 +2,8 @@
 
 C# Practice from Cracking the Coding Interview or LeetCode. Maybe from some other random locations too.
 
+Each of classes are named after the program they contain. Uncomment between the multi-line comment annotations /* */. That should run your program with the samples built in.  Do not forget to recomment them or you'll start breaking the rest of the programs.
+
 -----------
 
 - **allDigits** - Takes a string as a parameter and checks if the string consists of all digits or not. Does not use built in method. This problem was presented by Microsoft Technical Mentor.
@@ -14,7 +16,7 @@ C# Practice from Cracking the Coding Interview or LeetCode. Maybe from some othe
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
 
-- **Module6Files** - Various methods to manipulate files using **C#**. 
+- **Module6Files** - Various methods to manipulate files using **C#**.
 
 -----------
 
