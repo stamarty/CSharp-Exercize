@@ -81,7 +81,7 @@ namespace C_Sharp_Exercize
             //output is the next line in the file that is already created.
         }
 
-        
+
         /* NEED HELP WITH THIS METHOD....
         // this method has hard coding in it that I would not normally use except here to illustrate the 
         // point of taking data from one file and putting it into another. 
@@ -99,6 +99,20 @@ namespace C_Sharp_Exercize
         }
         */
 
+        //string fileLocation = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\InterviewQuestions.txt";
+        //string fileLocation2 = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\SecondFile.txt";
 
+        //Module6Files file = new Module6Files();
+
+
+
+        //file.FileLineRead(fileLocation);
+
+        //    file.FileWriteAllText(fileLocation2, "Here are some words to write! \n");
+        //    file.FileAppendText(fileLocation2, "this should be a second line in the SecondFile.txt \n");
+
+        //    FileInfo settings = new FileInfo(fileLocation);
+        //long length = settings.Length;
+        //Console.WriteLine(length);
     }
 }
