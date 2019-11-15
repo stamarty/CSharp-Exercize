@@ -8,3 +8,8 @@ Nakov, Fundamentals of Computer Programming with CSharp, p. 83.
 When you use the Entity Data Model Wizard to create a model, it automatically generates classes that expose the entities in the model to your application code. These classes contain properties that provide access to the properties in the entities.
 Microsoft, 20483B Programming in Visual C#, ch. 9, p. 1646.
 
+By default, when you define a LINQ query that returns a sequence of values, it is not run until you actually try to use some of the returned data. This feature is known as deferred query execution and ensures that you can create a query to retrieve data in a multiple-user scenario and know that whenever it is executed you will receive the latest information.
+Microsoft, 20483B Programming in Visual C#, ch. 9, p. 3979.
+
+Conversely, when you define a LINQ query that returns a singleton value, for example, an Average, Count, or Max function, the query is run immediately. This is known as immediate query execution and is necessary in the singleton result scenario because the query must produce a sequence to calculate the singleton result.
+Microsoft, 20483B Programming in Visual C#, ch. 9, p. 4066.
