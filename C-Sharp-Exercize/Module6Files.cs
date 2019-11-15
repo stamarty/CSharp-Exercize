@@ -11,12 +11,19 @@ namespace C_Sharp_Exercize
     //{
     //    static void Main(string[] args)
     //    {
-    //        lc_ToLowerCase test = new lc_ToLowerCase();
+    //        string fileLocation = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\InterviewQuestions.txt";
+    //        string fileLocation2 = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\SecondFile.txt";
 
-    //        Console.WriteLine(test.ToLowerCaseSB("Hello"));
-    //        // below should return same string
-    //        Console.WriteLine(test.ToLowerCaseSB("here"));
-    //        Console.WriteLine(test.ToLowerCaseSB("LOVELY"));
+    //        Module6Files file = new Module6Files();
+            
+    //        file.FileLineRead(fileLocation);
+
+    //        file.FileWriteAllText(fileLocation2, "Here are some words to write! \n");
+    //        file.FileAppendText(fileLocation2, "this should be a second line in the SecondFile.txt \n");
+
+    //        FileInfo settings = new FileInfo(fileLocation);
+    //        long length = settings.Length;
+    //        Console.WriteLine(length);
 
     //    }
     //}
@@ -113,20 +120,6 @@ namespace C_Sharp_Exercize
         }
         */
 
-        //string fileLocation = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\InterviewQuestions.txt";
-        //string fileLocation2 = "E:\\Program Files\\Repos\\CSharp-Exercize\\C-Sharp-Exercize\\Media\\SecondFile.txt";
-
-        //Module6Files file = new Module6Files();
-
-
-
-        //file.FileLineRead(fileLocation);
-
-        //    file.FileWriteAllText(fileLocation2, "Here are some words to write! \n");
-        //    file.FileAppendText(fileLocation2, "this should be a second line in the SecondFile.txt \n");
-
-        //    FileInfo settings = new FileInfo(fileLocation);
-        //long length = settings.Length;
-        //Console.WriteLine(length);
+       
     }
 }
