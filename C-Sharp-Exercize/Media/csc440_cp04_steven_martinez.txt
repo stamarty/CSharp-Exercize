@@ -2,5 +2,14 @@
 When consuming a remote data source in your application, the .NET Framework uses requests and responses to pass messages between the two (or more) systems.
 Microsoft, 20483B Programming in Visual C#, ch. 10, p. 342.
 
+A remote data source can expose any type of data...how you expose it is controlled by the data contracts that you define in your web services.
+Microsoft, 20483B Programming in Visual C#, ch. 10, p. 830.
 
+Regardless of the type of request object you require, you always use the static Create method that the WebRequest base class exposes and then cast to the type of request you require.
+Microsoft, 20483B Programming in Visual C#, ch. 10, p. 1210.
 
+When consuming any remote resources, whether an FTP site or an HTTP web service, you cannot guarantee that the resource is online and listening for your request. 
+Microsoft, 20483B Programming in Visual C#, ch. 10, p. 1405.
+
+...you should enclose any logic that communicates with a remote data source in a try/catch statement, with the catch block handling exceptions of type WebException.
+Microsoft, 20483B Programming in Visual C#, ch. 10, p. 1533.
