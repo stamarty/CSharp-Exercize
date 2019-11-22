@@ -10,7 +10,12 @@ namespace C_Sharp_Exercize
     {
         static void Main(string[] args)
         {
+            int[] nums = { 2, 7, 11, 15 };
+            int target = 9;
 
+            lc_TwoSum test = new lc_TwoSum();
+            test.twoNums(nums, target);
+            Console.ReadLine();
         }
     }
 
@@ -24,7 +29,18 @@ namespace C_Sharp_Exercize
         // You may assume that each input would have exactly one solution, and you may not use the same element twice.
         //
 
+        public int[] twoNums (int[] nums, int target)
+        {
+            for (int i = 0, j = i + 1; i < nums.Length; i++)
+            {
+                if (target == nums[i] + nums[j]) 
+                {
+                    return new int[] { i, j };
+                }
 
+            }
+            return null;
+        }
 
     }   
 }
