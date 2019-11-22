@@ -1,0 +1,6 @@
+
+When consuming a remote data source in your application, the .NET Framework uses requests and responses to pass messages between the two (or more) systems.
+Microsoft, 20483B Programming in Visual C#, ch. 10, p. 342.
+
+
+
