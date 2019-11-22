@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Exercize
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int[] nums = { 2, 7, 11, 15 };
-            int target = 9;
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        int[] nums = { 2, 7, 11, 15 };
+    //        int target = 9;
 
-            lc_TwoSum test = new lc_TwoSum();
-            test.twoNums(nums, target);
-            Console.ReadLine();
-        }
-    }
+    //        lc_TwoSum test = new lc_TwoSum();
+    //        test.twoNums(nums, target);
+    //        Console.ReadLine();
+    //    }
+    //}
 
     class lc_TwoSum
     {
@@ -31,16 +31,26 @@ namespace C_Sharp_Exercize
 
         public int[] twoNums (int[] nums, int target)
         {
-            for (int i = 0, j = i + 1; i < nums.Length; i++)
+            // iterate through array as i
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (target == nums[i] + nums[j]) 
+                //iterate through array as j
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    return new int[] { i, j };
+                    // check to see if [i] + [j] == target
+                    if (target == (nums[i] + nums[j]))
+                    {
+                        // return index of numbers if [i] + [j] == target
+                        return new int[] { i, j };
+                    }
                 }
-
+                
             }
+            // return null if [i] + [j] != target
             return null;
         }
+
+        //output: 0, 1
 
     }   
 }
