@@ -15,7 +15,7 @@ namespace C_Sharp_Exercize
 
     //        lc_TwoSum test = new lc_TwoSum();
     //        test.twoNums(nums, target);
-    //        Console.ReadLine();
+         
     //    }
     //}
 
@@ -46,7 +46,7 @@ namespace C_Sharp_Exercize
                 }
                 
             }
-            // return null if [i] + [j] != target
+            // return null if ([i] + [j] != target) in any example
             return null;
         }
 
