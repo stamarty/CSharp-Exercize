@@ -51,6 +51,7 @@
     <Compile Include="lc_DefangIP.cs" />
     <Compile Include="lc_JewelsAndStones.cs" />
     <Compile Include="lc_TwoSum.cs" />
+    <Compile Include="hr_SimpleArraySum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="lc_ToLowerCase.cs" />

@@ -28,9 +28,6 @@ namespace C_Sharp_Exercize
         //
         // Summary: Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
         //
-      
-
-
         // This method uses the built in method "ToLower". Probably need to figure out how to do it without that.
         // I'm going to leave this here for education's sake. The above samples use the second method in this class
         public string ToLowerCase(string str)
