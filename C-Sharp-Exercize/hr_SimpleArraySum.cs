@@ -7,17 +7,17 @@ using System.IO;
 
 namespace C_Sharp_Exercize
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            hr_SimpleArraySum test = new hr_SimpleArraySum();
-            int[] nums = new int[]{ 1, 2, 3, 4, 10, 11 };
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        hr_SimpleArraySum test = new hr_SimpleArraySum();
+    //        int[] nums = new int[]{ 1, 2, 3, 4, 10, 11 };
 
-            Console.WriteLine(test.SumOfArray(nums));
+    //        Console.WriteLine(test.SumOfArray(nums));
 
-        }
-    }
+    //    }
+    //}
 
     // Student: Steven Martinez
     //

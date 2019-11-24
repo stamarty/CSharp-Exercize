@@ -16,4 +16,12 @@ namespace C_Sharp_Exercize
 
     //    }
     //}
+
+    public class ClassName
+    {
+        public void MethodName(string parameters)
+        {
+
+        }
+    }
 }
