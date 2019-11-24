@@ -6,6 +6,11 @@ Each of classes are named after the program they contain. Select all code in the
 
 -----------
 
+- **hr_CompareTheTriplets** - Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty. We define the rating for Alice's challenge to be the 'a' triplet, and the rating for Bob's challenge to be the 'b' triplet. Your task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1] , and a[2] with b[2]. 
+    - If a[i] > b[i], then Alice is awarded  point.
+    - If a[i] < b[i],, then Bob is awarded  point.
+    - If a[i] == b[i],, then neither person receives a point.
+
 - **allDigits** - Takes a string as a parameter and checks if the string consists of all digits or not. Does not use built in method. This problem was presented by Microsoft Technical Mentor.
 
 - **lc_DefangIP** - Takes a valid IPv4 address and replaces "." with "[.]".
