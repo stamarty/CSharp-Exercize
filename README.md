@@ -27,6 +27,8 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **Module6Files** - Various methods to manipulate files using **C#**.
 
+- **MostCommonWordInString** - I was asked this question on an interview. Build a method that outputs the most common word in a given string. This is currently incomplete, but I am using the Substring method and hashtables to try to make this work.
+
 -----------
 
 ## Files for my own reference (*here be questions*)
