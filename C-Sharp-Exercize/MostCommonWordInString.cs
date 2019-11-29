@@ -7,14 +7,16 @@ using System.IO;
 
 namespace C_Sharp_Exercize
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string someString = "This is a string with words, words with Strings have words in them.";
+    //this is still broken. I do not know how to fix this yet.
+    
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        string someString = "This is a string with words, words with Strings have words in them.";
 
-        }
-    }
+    //    }
+    //}
 
     public class MostCommonWordInString
     {
@@ -26,7 +28,7 @@ namespace C_Sharp_Exercize
 
             for (int i = 0; i < a.Length; i++)
             {
-                if (a.[i] = " ")
+                if ([i] == " ")
                 {
                     index2 = (i - 1);
 
