@@ -6,7 +6,7 @@ Each of classes are named after the program they contain. Select all code in the
 
 -----------
 
-- **hr_CompareTheTriplets** - Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty. We define the rating for Alice's challenge to be the 'a' triplet, and the rating for Bob's challenge to be the 'b' triplet. Your task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1] , and a[2] with b[2]. 
+- **hr_CompareTheTriplets** - Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty. We define the rating for Alice's challenge to be the 'a' triplet, and the rating for Bob's challenge to be the 'b' triplet. Your task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1] , and a[2] with b[2].
     - If a[i] > b[i], then Alice is awarded  point.
     - If a[i] < b[i],, then Bob is awarded  point.
     - If a[i] == b[i],, then neither person receives a point.
@@ -27,7 +27,7 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **Module6Files** - Various methods to manipulate files using **C#**.
 
-- **MostCommonWordInString** - I was asked this question on an interview. Build a method that outputs the most common word in a given string. This is currently incomplete, but I am using the Substring method and hashtables to try to make this work.
+- **MostCommonWordInString** - I was asked this question on an interview. Build a method that outputs the most common word in a given string. This is currently incomplete, ~~but I am using the Substring method and hashtables to try to make this work.~~ After further reflection, I'm putting this away for a bit. I am not certain substring is the right way to take care of it. I think it should be regex and lists. I'm moving on for now, but will be back in a couple days.
 
 -----------
 
