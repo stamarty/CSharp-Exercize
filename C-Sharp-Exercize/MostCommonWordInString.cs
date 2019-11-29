@@ -5,37 +5,37 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace C_Sharp_Exercize
-{
-    //this is still broken. I do not know how to fix this yet.
+//namespace C_Sharp_Exercize
+//{
+//    //this is still broken. I do not know how to fix this yet.
     
-    //class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        string someString = "This is a string with words, words with Strings have words in them.";
+//    //class Program
+//    //{
+//    //    static void Main(string[] args)
+//    //    {
+//    //        string someString = "This is a string with words, words with Strings have words in them.";
 
-    //    }
-    //}
+//    //    }
+//    //}
 
-    public class MostCommonWordInString
-    {
-        //What is most common word in string
-        //separated by space
-        public void mostCommon(string a)
-        {
-            int index1 = 0, index2;
+//    public class MostCommonWordInString
+//    {
+//        //What is most common word in string
+//        //separated by space
+//        public void mostCommon(string a)
+//        {
+//            int index1 = 0, index2;
 
-            for (int i = 0; i < a.Length; i++)
-            {
-                if ([i] == " ")
-                {
-                    index2 = (i - 1);
+//            for (int i = 0; i < a.Length; i++)
+//            {
+//                if ([i] == " ")
+//                {
+//                    index2 = (i - 1);
 
-                    string newWord = a.Substring(index1, index2);
+//                    string newWord = a.Substring(index1, index2);
 
-                }
-            }
-        }
-    }
-}
+//                }
+//            }
+//        }
+//    }
+//}
