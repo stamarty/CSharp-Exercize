@@ -29,6 +29,8 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
 
+- **TopKFrequent** tests a string by putting it in a **dictionary** and counting the occurences of each individual word. Returns the top k occcurences in alphabetical order to a List.
+
 - **lc_TwoSum** - Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 - **Module6Files** - Various methods to manipulate files using **C#**.
