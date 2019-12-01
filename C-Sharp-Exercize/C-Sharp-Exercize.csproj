@@ -56,6 +56,7 @@
     <Compile Include="hr_SimpleArraySum.cs" />
     <Compile Include="hr_CompareTheTriplets.cs" />
     <Compile Include="lc_NRepeatedElements2NArray.cs" />
+    <Compile Include="SinglyLinkedList.cs" />
     <Compile Include="TopKFrequent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
