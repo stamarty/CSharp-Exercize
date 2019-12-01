@@ -17,6 +17,8 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **lc_JewelsAndStones** - Check contents of string J against contents of string S. Returns number of times elements of J appear in elements of S.
 
+- **lc_NRepeatedElements2NArray** - returns the value that is duplicated within the array. Uses a HashSet to look for duplicates.
+
 - **lc_PalindromeCheck** - checks for palindrome in any combination of letters or digits. Punctuation, case and whitespace are ignored.
 
 - **cci_ReverseString** - reverses a string entered as a parameter. There are two method signatures in the class, one returns the string reversed, the other writes the string reversed to console.
