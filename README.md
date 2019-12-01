@@ -19,6 +19,8 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **cci_ReverseString** - reverses a string entered as a parameter. There are two method signatures in the class, one returns the string reversed, the other writes the string reversed to console.
 
+- **lc_ReverseSLL** - reverses the order of nodes in a singlylinked list. There is not actually an associated linkedlist for this method yet, but the method does work.
+
 - **hr_SimpleArraySum** - Given an array of integers, find the sum of its elements.
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
