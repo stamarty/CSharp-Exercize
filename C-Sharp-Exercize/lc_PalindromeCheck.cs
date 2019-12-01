@@ -7,23 +7,23 @@ using System.IO;
 
 namespace C_Sharp_Exercize
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            lc_PalindromeCheck test = new lc_PalindromeCheck();
-            string palcheck1 = "racecar";
-            string palcheck2 = "steven";
-            string palcheck3 = "A man, a plan, a canal: Panama";
-            string palcheck4 = "race a car";
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        lc_PalindromeCheck test = new lc_PalindromeCheck();
+    //        string palcheck1 = "racecar";
+    //        string palcheck2 = "steven";
+    //        string palcheck3 = "A man, a plan, a canal: Panama";
+    //        string palcheck4 = "race a car";
 
-            Console.WriteLine(test.IsPalindrome(palcheck1));
-            Console.WriteLine(test.IsPalindrome(palcheck2));
-            Console.WriteLine(test.IsPalindrome(palcheck3));
-            Console.WriteLine(test.IsPalindrome(palcheck4));
+    //        Console.WriteLine(test.IsPalindrome(palcheck1));
+    //        Console.WriteLine(test.IsPalindrome(palcheck2));
+    //        Console.WriteLine(test.IsPalindrome(palcheck3));
+    //        Console.WriteLine(test.IsPalindrome(palcheck4));
 
-        }
-    }
+    //    }
+    //}
 
     // Student: Steven Martinez
     //
@@ -58,7 +58,7 @@ namespace C_Sharp_Exercize
                 // checks if the front pointer is pointing at something
                 // other than a letter or digit. Moves the pointer forward
                 // if no letter or digit is found.
-                if (!char.IsLetterOrDigit(s[i]))
+                if (!char.IsLetterOrDigit(S[i]))
                 {
                     // increments front pointer
                     i++;
@@ -87,4 +87,9 @@ namespace C_Sharp_Exercize
 
         }
     }
+
+    // output test 1: True 
+    // output test 2: False
+    // output test 3: True
+    // output test 4: False
 }

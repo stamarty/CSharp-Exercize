@@ -27,35 +27,36 @@ namespace C_Sharp_Exercize
 
     public class lc_ReverseSLL
     {
-        public ListNode ReverseList(ListNode head)
-        {
+        // commented out because ListNode is not actually a class yet.
+        //public ListNode ReverseList(ListNode head)
+        //{
 
-            ListNode prev = null, finger = head;
+        //    ListNode prev = null, finger = head;
 
-            // this method triggers continually until finger is pointed at a null value
-            while (finger != null)
-            {
-                // be careful not to lose nodes in ListNode. 
-                // assign finger.next to temp we're about to remove the link from head to .next
-                // assigning temp will keep the linkedlist from falling apart
-                ListNode temp = finger.next;
+        //    // this method triggers continually until finger is pointed at a null value
+        //    while (finger != null)
+        //    {
+        //        // be careful not to lose nodes in ListNode. 
+        //        // assign finger.next to temp we're about to remove the link from head to .next
+        //        // assigning temp will keep the linkedlist from falling apart
+        //        ListNode temp = finger.next;
 
-                // assigning finger.next to prev breaks the original pointer and points it  in the opposite direction
-                finger.next = prev;
+        //        // assigning finger.next to prev breaks the original pointer and points it  in the opposite direction
+        //        finger.next = prev;
 
-                // assign finger to previous. previous is no longer null and is now moving to the right
-                prev = finger;
+        //        // assign finger to previous. previous is no longer null and is now moving to the right
+        //        prev = finger;
 
-                // finger is now moved to the node directly to the right of where it was at the beginning of
-                // this iteration.
-                finger = temp;
-            }
+        //        // finger is now moved to the node directly to the right of where it was at the beginning of
+        //        // this iteration.
+        //        finger = temp;
+        //    }
 
-            // after the while loop has returned null for finger, the furthest right node is held 
+        //    // after the while loop has returned null for finger, the furthest right node is held 
             
-            return prev;
+        //    return prev;
 
-        }
+        //}
     }
 
     // sample input:  1 -> 2 -> 3 -> 4 -> 5

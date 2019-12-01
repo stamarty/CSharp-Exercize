@@ -50,10 +50,11 @@
     <Compile Include="cci_ReverseString.cs" />
     <Compile Include="lc_DefangIP.cs" />
     <Compile Include="lc_JewelsAndStones.cs" />
+    <Compile Include="lc_PalindromeCheck.cs" />
+    <Compile Include="lc_ReverseSLL.cs" />
     <Compile Include="lc_TwoSum.cs" />
     <Compile Include="hr_SimpleArraySum.cs" />
     <Compile Include="hr_CompareTheTriplets.cs" />
-    <Compile Include="MostCommonWordInString.cs" />
     <Compile Include="lc_NRepeatedElements2NArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
