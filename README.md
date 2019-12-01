@@ -17,6 +17,8 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **lc_JewelsAndStones** - Check contents of string J against contents of string S. Returns number of times elements of J appear in elements of S.
 
+- **lc_PalindromeCheck** - checks for palindrome in any combination of letters or digits. Punctuation, case and whitespace are ignored.
+
 - **cci_ReverseString** - reverses a string entered as a parameter. There are two method signatures in the class, one returns the string reversed, the other writes the string reversed to console.
 
 - **lc_ReverseSLL** - reverses the order of nodes in a singlylinked list. There is not actually an associated linkedlist for this method yet, but the method does work.
