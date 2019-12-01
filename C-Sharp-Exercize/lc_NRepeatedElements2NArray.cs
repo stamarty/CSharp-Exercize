@@ -48,7 +48,7 @@ namespace C_Sharp_Exercize
             HashSet<int> HS = new HashSet<int>();
 
             // move through the array and decide where to put each value
-            foreach (int i in A)
+            foreach (var i in A)
             {
                 // if the HashSet already contains the number then it is a duplicate
                 // which means you found the value that is duplicated within the array
