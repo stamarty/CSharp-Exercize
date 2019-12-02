@@ -29,7 +29,7 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
 
-- **TopKFrequent** tests a string by putting individual words *(key)* into a **dictionary** and counting the occurences *(value)* of each individual word. Returns the top k occcurences in alphabetical order to a **List**. _Currently, I cannot get the list to properly print. I need to keep working on this._
+- **TopKFrequent** tests a string by putting individual words *(key)* into a **dictionary** and counting the occurences *(value)* of each individual word. Returns the top k occcurences in alphabetical order to a **List**. **Console.WriteLine();** works now, but I think this needs a proper string override.
 
 - **lc_TwoSum** - Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
