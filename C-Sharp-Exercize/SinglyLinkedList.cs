@@ -21,7 +21,33 @@ namespace C_Sharp_Exercize
             myList.printList();
             myList.clearAll();
             myList.printList();
-
+            Console.WriteLine("List is empty: {0}", myList.isEmpty());
+            myList.AddFront(1);
+            myList.printList();
+            myList.AddFront(2);
+            myList.printList();
+            myList.AddFront(3);
+            myList.printList();
+            myList.AddFront(4);
+            myList.printList();
+            myList.printList();
+            myList.AddBack(6);
+            myList.printList();
+            myList.AddBack(7);
+            myList.printList();
+            myList.AddBack(8);
+            myList.printList();
+            myList.AddBack(9);
+            myList.printList();
+            myList.DeleteFront();
+            myList.printList();
+            Console.WriteLine("^^ Should be one node deleted from front");
+            myList.DeleteBack();
+            myList.printList();
+            Console.WriteLine("^^ Should be one node deleted from back");
+            myList.Delete(6);
+            myList.printList();
+            Console.WriteLine("^^ There should not be a 6 in this most recent list.");
         }
     }
 
@@ -140,6 +166,102 @@ namespace C_Sharp_Exercize
             finger.Next = newNode;
         }
 
+        //TODO Delete Front
+        public void DeleteFront()
+        {
+            // throw an exception if the list is already empty
+            if (isEmpty())
+            {
+                throw new Exception("The list is empty, so you cannot delete a node from it.");
+            }
+
+            // assign finger to point at head
+            Node finger = head;
+            // move finger to the next node
+            finger = finger.Next;
+            // move head to where finger is. The node at the beginning will be cleaned by C# which will essentially clear out the memory.
+            head = finger;
+        }
+
+        public void DeleteBack()
+        {
+            // again, we can't delete nodes from an empty list!
+            if (isEmpty())
+            {
+                throw new Exception("The list is empty, so you cannot delete a node from it.");
+            }
+
+            // what if the list only has one node in it?
+            else if (head.Next == null)
+            {
+                head = null;
+            }
+
+            else
+            {
+                // point at head again. 
+                Node finger = head;
+
+                // we need to traverse the list until we get to the last node. 
+                while (finger.Next.Next != null)
+                {
+                    finger = finger.Next;
+                }
+                // set the final node to null
+                finger.Next = null;
+            }
+        }
+
+        // Delete a node with a specific value in it.
+        public void Delete (int value)
+        {
+            // if list is empty, we cannot search it for a value
+            if (isEmpty())
+            {
+                throw new Exception("Cannot find node in an empty list.");
+            }
+
+            // if head is the only value in the list
+            else if (head.Next == null)
+            {
+                //check to see if data head is pointing at is the value we're looking for
+                if (head.data == value)
+                {
+                    // if it is, set head to null, now you have an empty list
+                    head = null;
+                    Console.WriteLine("Your list is now empty");
+                }
+
+                // if head is the only node and head is not the value being searched for
+                // tell the user the value is not in the list. 
+                else
+                {
+                    Console.WriteLine("Value not found in list.");
+                }
+            }
+
+            else
+            {
+                // first let's point at the head
+                Node finger = head;
+
+                while (finger.Next !=null && finger.Next.data != value)
+                {
+                    finger = finger.Next;
+                }
+
+                if (finger.Next != null)
+                {
+                    finger.Next = finger.Next.Next;
+                }
+
+                else
+                {
+                    Console.WriteLine("Value is not found.");
+                }
+                    
+            }
+        }
     }
 }
 
