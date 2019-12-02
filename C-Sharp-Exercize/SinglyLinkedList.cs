@@ -48,6 +48,11 @@ namespace C_Sharp_Exercize
             myList.Delete(6);
             myList.printList();
             Console.WriteLine("^^ There should not be a 6 in this most recent list.");
+            myList.Reverse();
+
+            Console.WriteLine("Printing the reversed list.");
+            // I don't know why this won't work.
+            Console.WriteLine(myList.ToString());
         }
     }
 
@@ -165,8 +170,7 @@ namespace C_Sharp_Exercize
 
             finger.Next = newNode;
         }
-
-        //TODO Delete Front
+        // delete a node from the front of the linked List.
         public void DeleteFront()
         {
             // throw an exception if the list is already empty
@@ -182,7 +186,7 @@ namespace C_Sharp_Exercize
             // move head to where finger is. The node at the beginning will be cleaned by C# which will essentially clear out the memory.
             head = finger;
         }
-
+        // delete a node from the back of a linked list.
         public void DeleteBack()
         {
             // again, we can't delete nodes from an empty list!
@@ -260,6 +264,20 @@ namespace C_Sharp_Exercize
                     Console.WriteLine("Value is not found.");
                 }
                     
+            }
+        }
+        // take a list and reverse the order of the links
+        public void Reverse()
+        {
+            // create pointer for head
+            Node finger = head;
+            // head needs to be empty
+            head = null;
+            // this method will traverse the list until finger is pointed at a null value.
+            while (finger != null)
+            {
+                AddFront(finger.data);
+                finger = finger.Next;
             }
         }
     }
