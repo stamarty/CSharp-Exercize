@@ -15,7 +15,7 @@ namespace C_Sharp_Exercize
     //        string[] arr1 = { "i", "love", "leetcode", "i", "love", "coding" };
     //        int k = 2;
 
-    //        Console.Write(string.Join(System.Environment.NewLine, test.TopKFrequent(arr1, k)));
+    //        Console.WriteLine(string.Join(System.Environment.NewLine, test.TopKFrequent(arr1, k)));
     //    }
     //}
 

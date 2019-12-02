@@ -13,9 +13,14 @@ namespace C_Sharp_Exercize
         {
             SinglyLinkedList myList = new SinglyLinkedList();
 
+            // populate the list.
+            myList.printList();
             myList.AddFront(17);
-
-            Console.WriteLine(myList);
+            myList.printList();
+            myList.AddFront(25);
+            myList.printList();
+            myList.clearAll();
+            myList.printList();
 
         }
     }
@@ -56,6 +61,51 @@ namespace C_Sharp_Exercize
         Node head;
 
         // methods
+        
+        // first we have to be able to know if the list is empty
+        // return true if list is empty and false if it has nodes.
+        public bool isEmpty()
+        {
+            if(head == null)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+        }
+
+        // we need to be able to empty the list.
+        public void clearAll()
+        {
+            // if head isn't pointing at anything then the c# garbage collection empties the list
+            head = null;
+        }
+
+        public void printList()
+        {
+            //prints out a message if the list is empty
+            if (isEmpty())
+            {
+                Console.WriteLine("List is empty");
+            }
+
+            // point at the head of the list
+            Node finger = head;
+            // print each node sequentially. 
+            while (finger != null)
+            {
+                //show what's in the node
+                Console.Write(finger + " ");
+                //move finger to the next node
+                finger = finger.Next;
+            }
+            Console.WriteLine();
+            Console.WriteLine("----------------");
+        }
+            
         // let's add a node to the front of the list
         public void AddFront(int value)
         {
