@@ -105,7 +105,7 @@ namespace C_Sharp_Exercize
             Console.WriteLine();
             Console.WriteLine("----------------");
         }
-            
+
         // let's add a node to the front of the list
         public void AddFront(int value)
         {
@@ -117,6 +117,28 @@ namespace C_Sharp_Exercize
             head = newNode;
         }
 
+        // in case we want to add a value to the very end of the list
+        public void AddBack(int value)
+        {
+            //instantiate the new node
+            Node newNode = new Node(value);
+
+            if (isEmpty())
+            {
+                head = newNode;
+            }
+            
+            // point at the head
+            Node finger = head;
+
+            // move the pointer to the end of the list
+            while (finger.Next != null)
+            {
+                finger = finger.Next;
+            }
+
+            finger.Next = newNode;
+        }
 
     }
 }
