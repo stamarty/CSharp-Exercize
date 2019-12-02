@@ -27,7 +27,7 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **hr_SimpleArraySum** - Given an array of integers, find the sum of its elements.
 
-- **SinglyLinkedList** - The singlylinkedlist is a common data structure that consists of nodes and pointers, so I want to know how to build one. This class currently has methods to check for empty list, clear list, add node to back, add node to front, and print list.
+- **SinglyLinkedList** - The singlylinkedlist is a common data structure that consists of nodes and pointers, so I want to know how to build one. This class currently has methods to check for empty list, clear list, add node to back, add node to front, and print list. Now with DeleteFront, DeleteBack, and Delete. 
 
 - **lc_ToLower** - Takes a string as a parameter and returns the same string all in lowercase. There's a method using the built in method **ToLower();** as well as a method I built taking the ascii value of the character and adding 32 if it is capitalized. This second method, **ToLowerCaseSB;**, uses **StringBuilder**.
 
