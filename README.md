@@ -17,13 +17,17 @@ Each of classes are named after the program they contain. Select all code in the
 
 - **lc_JewelsAndStones** - Check contents of string J against contents of string S. Returns number of times elements of J appear in elements of S.
 
+- **Module6Files** - Various methods to manipulate files using **C#**.
+
 - **lc_NRepeatedElements2NArray** - returns the value that is duplicated within the array. Uses a HashSet to look for duplicates.
 
 - **lc_PalindromeCheck** - checks for palindrome in any combination of letters or digits. Punctuation, case and whitespace are ignored.
 
 - **cci_ReverseString** - reverses a string entered as a parameter. There are two method signatures in the class, one returns the string reversed, the other writes the string reversed to console.
 
-- **lc_ReverseSLL** - reverses the order of nodes in a singlylinked list. There is not actually an associated linkedlist for this method yet, but the method does work.
+- **lc_ReverseSLL** - reverses the order of nodes in a singlylinked list.
+
+- **RockPaperScissors** - Can you beat The Horde of Hamsters at their own game? This game uses three classes to run a simple game of Rock, Paper, Scissors. It also keeps score!
 
 - **hr_SimpleArraySum** - Given an array of integers, find the sum of its elements.
 
@@ -34,8 +38,6 @@ Each of classes are named after the program they contain. Select all code in the
 - **TopKFrequent** tests a string by putting individual words *(key)* into a **dictionary** and counting the occurences *(value)* of each individual word. Returns the top k occcurences in alphabetical order to a **List**. **Console.WriteLine();** works now, but I think this needs a proper string override.
 
 - **lc_TwoSum** - Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-- **Module6Files** - Various methods to manipulate files using **C#**.
 
 -----------
 
