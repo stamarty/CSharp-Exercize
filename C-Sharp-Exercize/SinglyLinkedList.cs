@@ -7,54 +7,54 @@ using System.IO;
 
 namespace C_Sharp_Exercize
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SinglyLinkedList myList = new SinglyLinkedList();
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        SinglyLinkedList myList = new SinglyLinkedList();
 
-            // populate the list.
-            myList.printList();
-            myList.AddFront(17);
-            myList.printList();
-            myList.AddFront(25);
-            myList.printList();
-            myList.clearAll();
-            myList.printList();
-            Console.WriteLine("List is empty: {0}", myList.isEmpty());
-            myList.AddFront(1);
-            myList.printList();
-            myList.AddFront(2);
-            myList.printList();
-            myList.AddFront(3);
-            myList.printList();
-            myList.AddFront(4);
-            myList.printList();
-            myList.printList();
-            myList.AddBack(6);
-            myList.printList();
-            myList.AddBack(7);
-            myList.printList();
-            myList.AddBack(8);
-            myList.printList();
-            myList.AddBack(9);
-            myList.printList();
-            myList.DeleteFront();
-            myList.printList();
-            Console.WriteLine("^^ Should be one node deleted from front");
-            myList.DeleteBack();
-            myList.printList();
-            Console.WriteLine("^^ Should be one node deleted from back");
-            myList.Delete(6);
-            myList.printList();
-            Console.WriteLine("^^ There should not be a 6 in this most recent list.");
-            myList.Reverse();
+    //        // populate the list.
+    //        myList.printList();
+    //        myList.AddFront(17);
+    //        myList.printList();
+    //        myList.AddFront(25);
+    //        myList.printList();
+    //        myList.clearAll();
+    //        myList.printList();
+    //        Console.WriteLine("List is empty: {0}", myList.isEmpty());
+    //        myList.AddFront(1);
+    //        myList.printList();
+    //        myList.AddFront(2);
+    //        myList.printList();
+    //        myList.AddFront(3);
+    //        myList.printList();
+    //        myList.AddFront(4);
+    //        myList.printList();
+    //        myList.printList();
+    //        myList.AddBack(6);
+    //        myList.printList();
+    //        myList.AddBack(7);
+    //        myList.printList();
+    //        myList.AddBack(8);
+    //        myList.printList();
+    //        myList.AddBack(9);
+    //        myList.printList();
+    //        myList.DeleteFront();
+    //        myList.printList();
+    //        Console.WriteLine("^^ Should be one node deleted from front");
+    //        myList.DeleteBack();
+    //        myList.printList();
+    //        Console.WriteLine("^^ Should be one node deleted from back");
+    //        myList.Delete(6);
+    //        myList.printList();
+    //        Console.WriteLine("^^ There should not be a 6 in this most recent list.");
+    //        myList.Reverse();
 
-            Console.WriteLine("Printing the reversed list.");
-            // I don't know why this won't work.
-            Console.WriteLine(myList.ToString());
-        }
-    }
+    //        Console.WriteLine("Printing the reversed list.");
+    //        // I don't know why this won't work.
+    //        Console.WriteLine(myList.ToString());
+    //    }
+    //}
 
     // Student: Steven Martinez
     //
